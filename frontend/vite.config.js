@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8008'
+        target: 'https://mcs-app.onrender.com'
         //Backend API
       },
     },
